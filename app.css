@@ -1,0 +1,552 @@
+
+.title[data-v-e1db3e30] {
+  margin-left: 10px;
+  margin-top: 3px;
+  font-size: 16px;
+  user-select: none;
+}
+[data-v-e1db3e30] .el-autocomplete {
+  margin-top: 3px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  width: 336px !important;
+}
+[data-v-e1db3e30] .el-input.SearchBar2 {
+  margin-top: 3px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  width: 336px !important;
+}
+[data-v-e1db3e30] .el-input__wrapper {
+  height: 30px !important;
+}
+[data-v-e1db3e30] .el-input__inner {
+  font-size: 14px !important;
+}
+[data-v-e1db3e30] .el-autocomplete-suggestion li {
+  font-size: 14px !important;
+  height: 30px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+[data-v-e1db3e30] .el-table {
+  margin-top: 3px !important;
+  height: 211px !important;
+  border-radius: 8px;
+}
+[data-v-e1db3e30] .el-table th .cell {
+  font-size: 16px !important;
+  text-align: center !important;
+  color: black;
+}
+[data-v-e1db3e30] .el-table td .cell {
+  font-size: 16px !important;
+  text-align: center !important;
+}
+[data-v-e1db3e30] .el-table__body-wrapper {
+  border-bottom: 0;
+}
+[data-v-e1db3e30] .el-textarea {
+  margin-left: 10px;
+  width: 336px !important;
+}
+.tag-warpper[data-v-e1db3e30] {
+  display: flex;
+  flex-wrap: wrap;
+  /* 允许内容换行 */
+  align-items: center;
+  margin-top: 3px;
+  height: auto;
+  /* 高度自适应内容 */
+  min-height: 25px;
+  /* 没有内容时的最小高度 */
+  max-height: 25px;
+  /* 内容超过两行时的最大高度，根据实际调整 */
+  margin-left: 10px;
+  width: 324px;
+  /* 根据您的更新调整宽度 */
+  border: 1px solid;
+  border-color: var(--el-border-color);
+  border-radius: 5px;
+  overflow-y: auto;
+  /* 内容超出时显示滚动条 */
+  padding-left: 5px;
+  /* 内部左右填充，为标签提供更好的视觉间隔 */
+  padding-right: 5px;
+  padding-bottom: 5px;
+  /* 底部填充，确保标签与容器底部有间隔 */
+}
+.el-tag[data-v-e1db3e30] {
+  height: 20px !important;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.tag-text[data-v-e1db3e30] {
+  margin-top: 5px;
+  margin-left: 6px;
+  color: #A8ABB2;
+  font-family: Arial;
+  user-select: none;
+}
+.clear-tags-button[data-v-e1db3e30] {
+  position: absolute;
+  cursor: pointer;
+  top: 9px;
+  right: 30px;
+  width: 14px;
+  /* 根据实际 SVG 尺寸调整 */
+  height: 14px;
+  /* 根据实际 SVG 尺寸调整 */
+  align-self: center;
+  /* 确保按钮垂直居中 */
+  margin-left: auto;
+  /* 推送到右侧 */
+}
+.clear-tags-button path[data-v-e1db3e30] {
+  color: #a8abb2
+}
+.gene2-warpper[data-v-e1db3e30] {
+  position: relative;
+}
+[data-v-e1db3e30] .bold-row {
+  font-weight: bold;
+  color: brown;
+}
+
+
+.scatterplot-title[data-v-2b4c75c9] {
+  display: flex;
+  align-items: center;
+  width: 346px;
+  height: 40px;
+  line-height: 40px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding-left: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 18px;
+  z-index: 9999;
+  position: relative;
+  user-select: none;
+}
+#tooltip[data-v-2b4c75c9] {
+  position: absolute;
+  visibility: hidden;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  z-index: 9999;
+}
+.legend-node[data-v-2b4c75c9] {
+  margin-left: 10px;
+}
+.legends[data-v-2b4c75c9] {
+  margin-left: auto;
+  margin-right: 10px
+}
+
+
+.left-content[data-v-f7bf2a72] {
+  display: flex;
+  flex-direction: column;
+  /* 垂直排列 */
+  align-items: center;
+  /* 水平居中对齐子元素 */
+  /* 可以添加更多样式，如边距、填充等 */
+}
+.container[data-v-f7bf2a72] {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.content[data-v-f7bf2a72] {
+  flex: 1;
+  display: flex;
+  flex-direction: between;
+}
+
+/* 可选地为每个flex子项添加样式 */
+.right-content[data-v-f7bf2a72] {
+  /* 根据需要调整 */
+  display: flex;
+  flex-direction: column;
+  /* 使SVG和Scrollbar垂直布局 */
+  /* 其他样式 */
+}
+.svg-and-scrollbar-container[data-v-f7bf2a72] {
+  display: flex;
+  flex-direction: column;
+  /* SVG和el-scrollbar垂直排列 */
+}
+#empty[data-v-f7bf2a72] {
+  width: 357px;
+  height: 460px;
+  user-select: none;
+}
+.scatterplot-title[data-v-f7bf2a72] {
+  display: flex;
+  align-items: center;
+  width: 1229px;
+  height: 40px;
+  line-height: 40px;
+  /* Center the text vertically */
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Drop shadow effect */
+  padding-left: 10px;
+  /* Left align the text with some padding */
+  padding-right: 2px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 18px;
+}
+.el-scrollbar[data-v-f7bf2a72] {
+  width: 884;
+  height: 460px;
+}
+.title-button[data-v-f7bf2a72] {
+  margin-left: auto;
+  /* 调整右边距 */
+  margin-right: 10px;
+  width: 80px;
+  height: 28px;
+}
+.title-button-icon[data-v-f7bf2a72] {
+  height: 14px;
+  width: 14px;
+  margin-right: 5px;
+}
+.legend-node[data-v-f7bf2a72] {
+  margin-left: 10px;
+}
+.legends[data-v-f7bf2a72] {
+  margin-left: auto;
+  margin-right: 10px
+}
+
+
+.scatterplot-title[data-v-64383f5a] {
+  display: flex;
+  align-items: center;
+  width: 334px;
+  height: 40px;
+  line-height: 40px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding-left: 10px;
+  padding-right: 12px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 18px;
+  z-index: 9999;
+  position: relative;
+}
+.list-scrollbar[data-v-64383f5a] {
+  width: 357px;
+  height: 282px;
+  margin: auto;
+}
+.collapse-item-wrapper[data-v-64383f5a] {
+  position: relative; /* 确保 collapse-item-wrapper 使用相对定位 */
+  width: 100%;
+  display: flex; /* 使用 flex 布局以保持内部元素的结构 */
+  align-items: flex-start; /* 保持 items 对齐到顶部 */
+}
+.el-collapse[data-v-64383f5a] {
+  width: 356px;
+  border: 0;
+}
+[data-v-64383f5a] .el-collapse-item {
+  /* 确保整个 el-collapse-item 使用 flex 布局 */
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column; /* 垂直布局 */
+  justify-content: flex-start; /* 内容对齐到顶部 */
+  align-items: center; /* 子元素在交叉轴上居中对齐 */
+  width: 100%; /* 使用整个容器宽度 */
+  position: relative;
+}
+.el-checkbox[data-v-64383f5a] {
+  background: white;
+  width: 332px !important;
+  display: flex;
+  margin-right: 0px;
+  height: 40px;
+  --el-checkbox-font-size: 18px;
+  z-index: 1;
+  flex-grow: 1 !important;
+}
+.checkbox-container[data-v-64383f5a] {
+  position: relative;
+}
+.checkbox-panel[data-v-64383f5a] {
+  width: 332px;
+}
+[data-v-64383f5a] .el-collapse-item button{
+  width: 332px;
+}
+.collapse-button[data-v-64383f5a] {
+  height:32px !important;
+  width: 32px !important;
+  position: absolute; /* 确保已经设置 */
+  right: 16px; /* 根据需要调整，确保按钮在正确的位置 */
+  top: 14px; /* 根据需要调整，确保按钮在复选框上方 */
+  z-index: 2; /* 确保按钮在复选框之上 */
+  border: none; /* 去除边框，如果有的话 */
+  cursor: pointer; /* 明确指出这是一个可点击的元素 */
+}
+.collapse-button-icon[data-v-64383f5a]{
+  width: 25px;
+  height: 25px;
+}
+[data-v-64383f5a] textarea {
+  margin-top: 0;
+}
+.el-textarea__inner[data-v-64383f5a]{
+  font-size: 14px !important;
+}
+[data-v-64383f5a] .el-collapse-item__content {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+  width: 332px;
+}
+[data-v-64383f5a] .el-textarea__inner{
+  font-size: 14px !important;
+}
+[data-v-64383f5a] .el-collapse-item__wrap {
+  /* 控制展开内容的容器 */
+  width: 332px; /* 展开内容使用可用的全部宽度 */
+  display: flex;
+  flex-direction: column; /* 确保内容垂直展开 */
+  align-items: center; /* 在这里居中可能不是必要的，取决于您的设计需求 */
+  border: 0;
+  margin-top: -1px;
+}
+[data-v-64383f5a] .el-collapse-item__header {
+  height: 40px;
+  border: 0;
+}
+[data-v-64383f5a] .el-collapse-item__arrow {
+  display: none;
+}
+.title-button[data-v-64383f5a] {
+  margin-left: auto;/* 调整右边距 */
+  width: 80px;
+  height: 28px;
+}
+
+/* :deep(.title-button span) {
+  font-size: 14px;
+} */
+.title-button-icon[data-v-64383f5a] {
+  height: 14px;
+  width: 14px;
+  margin-right: 5px;
+}
+[data-v-64383f5a] .el-checkbox__label {
+  font-size: 14px;
+}
+[data-v-64383f5a] .el-scrollbar__view {
+  padding-bottom: 10px;
+}
+.el-textarea[data-v-64383f5a] {
+  margin-left: 0;
+  width: 332px !important;
+}
+
+
+span {
+  user-select: none;
+}
+.legend-node {
+  margin-left: 10px;
+}
+.legends {
+  margin-left: auto;
+  margin-right: 10px
+}
+.scatterplot-title {
+  display: flex;
+  align-items: center;
+  width: 1231px;
+  height: 40px;
+  line-height: 40px;
+  /* Center the text vertically */
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Drop shadow effect */
+  padding-left: 10px;
+  /* Left align the text with some padding */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 18px;
+  user-select: none;
+}
+.scatterplot-container {
+  position: relative;
+  width: 1230px;
+  height: 484px;
+}
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  padding: 2px;
+  font: 14px sans-serif;
+  background: gainsboro;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  white-space: pre-wrap;
+  /* 允许自动换行 */
+  overflow: hidden;
+  /* 防止内容溢出 */
+}
+.lasso {
+  fill: none;
+  stroke: #000;
+  stroke-dasharray: 4;
+  stroke-width: 2;
+}
+.lasso-selection-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+}
+.color-points-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+  text-align: right;
+  display: none;
+}
+.overlay-button {
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  top: 10px;
+  /* Adjust this value to position the button vertically */
+  left: 10px;
+  /* Center the button horizontally relative to its parent */
+  cursor: pointer;
+  z-index: 10;
+  /* Ensure the button is above other elements */
+}
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+
+.G-title[data-v-cf4c657c] {
+  display: flex;
+  align-items: center;
+  width: 526px;
+  height: 40px;
+  line-height: 40px;
+  /* Center the text vertically */
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Drop shadow effect */
+  padding-left: 10px;
+  /* Left align the text with some padding */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 18px;
+  user-select: none;
+  /* 相对定位 */
+}
+.G-container[data-v-cf4c657c] {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative;
+}
+.legend-node[data-v-cf4c657c] {
+  margin-left: 10px;
+}
+.legends[data-v-cf4c657c] {
+  margin-left: auto;
+  margin-right: 10px
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 360px 360px 880px 540px;
+  /* Width A+D+E+G */
+  grid-template-rows: 60px 400px 80px 240px 300px;
+  /* Height Logo + A + C */
+  gap: 5px;
+  /* Grid gap */
+  width: 100%;
+}
+.logo-container {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+  width: auto;
+  margin-right: 12px;
+}
+.a-container {
+  grid-column: 1;
+  grid-row: 2;
+  border: 2px solid #a0a0a0;
+  border-radius: 8px;
+}
+.c-container {
+  grid-column: 1;
+  grid-row: 5;
+  border: 2px solid #a0a0a0;
+  border-radius: 8px;
+}
+.d-container {
+  grid-column: 2 / 4;
+  grid-row: 1 / 4;
+  border: 2px solid #a0a0a0;
+  border-radius: 8px;
+}
+.e-container {
+  grid-column: 1;
+  grid-row: 3 / 5;
+  border: 2px solid #a0a0a0;
+  border-radius: 8px;
+}
+.f-container {
+  grid-column: 2 / 4;
+  grid-row: 4 / 6;
+  border: 2px solid #a0a0a0;
+  border-radius: 8px;
+}
+.g-container {
+  grid-column: 4;
+  grid-row: 1 / 6;
+  border: 2px solid #a0a0a0;
+  border-radius: 8px;
+}
+
+.page-not-found-wrapper[data-v-7588e2f8] {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+* {
+  font-size: 14px;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+
