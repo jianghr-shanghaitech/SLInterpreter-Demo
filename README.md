@@ -15,7 +15,7 @@ Data files exceeding 8MB have been uploaded in compressed form. Therefore, befor
 - `static/KG/facts_full_type.zip`
 - `static/KG/facts_full_type_index.zip`
 - `static/knownSL/facts.zip`
-- `static/knownSL/predicted_gene_all.zip`
+- `static/predicted_gene/predicted_gene_all.zip`
 
 ### User Notice:
 
