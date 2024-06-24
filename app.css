@@ -53,28 +53,20 @@
 .tag-warpper[data-v-e1db3e30] {
   display: flex;
   flex-wrap: wrap;
-  /* 允许内容换行 */
   align-items: center;
   margin-top: 3px;
   height: auto;
-  /* 高度自适应内容 */
   min-height: 25px;
-  /* 没有内容时的最小高度 */
   max-height: 25px;
-  /* 内容超过两行时的最大高度，根据实际调整 */
   margin-left: 10px;
   width: 324px;
-  /* 根据您的更新调整宽度 */
   border: 1px solid;
   border-color: var(--el-border-color);
   border-radius: 5px;
   overflow-y: auto;
-  /* 内容超出时显示滚动条 */
   padding-left: 5px;
-  /* 内部左右填充，为标签提供更好的视觉间隔 */
   padding-right: 5px;
   padding-bottom: 5px;
-  /* 底部填充，确保标签与容器底部有间隔 */
 }
 .el-tag[data-v-e1db3e30] {
   height: 20px !important;
@@ -94,13 +86,9 @@
   top: 9px;
   right: 30px;
   width: 14px;
-  /* 根据实际 SVG 尺寸调整 */
   height: 14px;
-  /* 根据实际 SVG 尺寸调整 */
   align-self: center;
-  /* 确保按钮垂直居中 */
   margin-left: auto;
-  /* 推送到右侧 */
 }
 .clear-tags-button path[data-v-e1db3e30] {
   color: #a8abb2
@@ -151,10 +139,7 @@
 .left-content[data-v-f7bf2a72] {
   display: flex;
   flex-direction: column;
-  /* 垂直排列 */
   align-items: center;
-  /* 水平居中对齐子元素 */
-  /* 可以添加更多样式，如边距、填充等 */
 }
 .container[data-v-f7bf2a72] {
   flex: 1;
@@ -167,18 +152,13 @@
   flex-direction: between;
 }
 
-/* 可选地为每个flex子项添加样式 */
 .right-content[data-v-f7bf2a72] {
-  /* 根据需要调整 */
   display: flex;
   flex-direction: column;
-  /* 使SVG和Scrollbar垂直布局 */
-  /* 其他样式 */
 }
 .svg-and-scrollbar-container[data-v-f7bf2a72] {
   display: flex;
   flex-direction: column;
-  /* SVG和el-scrollbar垂直排列 */
 }
 #empty[data-v-f7bf2a72] {
   width: 357px;
@@ -208,7 +188,6 @@
 }
 .title-button[data-v-f7bf2a72] {
   margin-left: auto;
-  /* 调整右边距 */
   margin-right: 10px;
   width: 80px;
   height: 28px;
@@ -249,23 +228,22 @@
   margin: auto;
 }
 .collapse-item-wrapper[data-v-64383f5a] {
-  position: relative; /* 确保 collapse-item-wrapper 使用相对定位 */
+  position: relative;
   width: 100%;
-  display: flex; /* 使用 flex 布局以保持内部元素的结构 */
-  align-items: flex-start; /* 保持 items 对齐到顶部 */
+  display: flex;
+  align-items: flex-start;
 }
 .el-collapse[data-v-64383f5a] {
   width: 356px;
   border: 0;
 }
 [data-v-64383f5a] .el-collapse-item {
-  /* 确保整个 el-collapse-item 使用 flex 布局 */
   display: flex;
   margin-top: 10px;
-  flex-direction: column; /* 垂直布局 */
-  justify-content: flex-start; /* 内容对齐到顶部 */
-  align-items: center; /* 子元素在交叉轴上居中对齐 */
-  width: 100%; /* 使用整个容器宽度 */
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
   position: relative;
 }
 .el-checkbox[data-v-64383f5a] {
@@ -290,12 +268,12 @@
 .collapse-button[data-v-64383f5a] {
   height:32px !important;
   width: 32px !important;
-  position: absolute; /* 确保已经设置 */
-  right: 16px; /* 根据需要调整，确保按钮在正确的位置 */
-  top: 14px; /* 根据需要调整，确保按钮在复选框上方 */
-  z-index: 2; /* 确保按钮在复选框之上 */
-  border: none; /* 去除边框，如果有的话 */
-  cursor: pointer; /* 明确指出这是一个可点击的元素 */
+  position: absolute;
+  right: 16px;
+  top: 14px;
+  z-index: 2;
+  border: none;
+  cursor: pointer;
 }
 .collapse-button-icon[data-v-64383f5a]{
   width: 25px;
@@ -317,11 +295,10 @@
   font-size: 14px !important;
 }
 [data-v-64383f5a] .el-collapse-item__wrap {
-  /* 控制展开内容的容器 */
-  width: 332px; /* 展开内容使用可用的全部宽度 */
+  width: 332px;
   display: flex;
-  flex-direction: column; /* 确保内容垂直展开 */
-  align-items: center; /* 在这里居中可能不是必要的，取决于您的设计需求 */
+  flex-direction: column;
+  align-items: center;
   border: 0;
   margin-top: -1px;
 }
@@ -333,7 +310,7 @@
   display: none;
 }
 .title-button[data-v-64383f5a] {
-  margin-left: auto;/* 调整右边距 */
+  margin-left: auto;
   width: 80px;
   height: 28px;
 }
@@ -401,9 +378,7 @@ span {
   border-radius: 8px;
   pointer-events: none;
   white-space: pre-wrap;
-  /* 允许自动换行 */
   overflow: hidden;
-  /* 防止内容溢出 */
 }
 .lasso {
   fill: none;
@@ -463,7 +438,6 @@ span {
   border-top-right-radius: 8px;
   font-size: 18px;
   user-select: none;
-  /* 相对定位 */
 }
 .G-container[data-v-cf4c657c] {
   padding-top: 5px;
