@@ -228,10 +228,10 @@
   margin: auto;
 }
 .collapse-item-wrapper[data-v-64383f5a] {
-  position: relative;
+  position: relative; 
   width: 100%;
-  display: flex;
-  align-items: flex-start;
+  display: flex; 
+  align-items: flex-start; 
 }
 .el-collapse[data-v-64383f5a] {
   width: 356px;
@@ -240,10 +240,10 @@
 [data-v-64383f5a] .el-collapse-item {
   display: flex;
   margin-top: 10px;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
+  flex-direction: column; 
+  justify-content: flex-start; /
+  align-items: center; 
+  width: 100%; 
   position: relative;
 }
 .el-checkbox[data-v-64383f5a] {
@@ -268,12 +268,12 @@
 .collapse-button[data-v-64383f5a] {
   height:32px !important;
   width: 32px !important;
-  position: absolute;
-  right: 16px;
-  top: 14px;
-  z-index: 2;
-  border: none;
-  cursor: pointer;
+  position: absolute; 
+  right: 16px; 
+  top: 14px; 
+  z-index: 2; 
+  border: none; 
+  cursor: pointer; 
 }
 .collapse-button-icon[data-v-64383f5a]{
   width: 25px;
@@ -297,8 +297,8 @@
 [data-v-64383f5a] .el-collapse-item__wrap {
   width: 332px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; 
+  align-items: center; 
   border: 0;
   margin-top: -1px;
 }
