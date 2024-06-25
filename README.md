@@ -19,7 +19,7 @@ Data files exceeding 8MB have been uploaded in compressed form. Therefore, befor
 
 ### User Notice:
 
-1. Since this demo is a build version, we recommend using the **Go Live** plugin of **VScode** for running it. Directly opening the `.html` file may not work correctly.
+1. Since this demo is a build version, we recommend using the **Live Server** plugin of **VScode** for running it. Directly opening the `.html` file may not work correctly.
 2. This demo only includes the prediction result data from the Cases mentioned in the paper. Therefore, selecting other genes **will not display the Interpretative Path View correctly**. Please first enter `Thyroid Cancer` in the Disease search box and select `Thyroid Cancer`. Then enter `CDK1` in the Primary Gene search box and select `CDK1` to reproduce the Case in the paper or explore freely. Or you can enter `CDK1` in the Primary Gene search box and select `CDK1` directly.
 3. **As this demo is a trial version**, the system does not have access to the full data from our test runs. Therefore, unexpectable bugs may occur during operation. You can raise issues on our subsequent open-source homepage. We greatly appreciate your understanding!
 4. The Operation List and Model Log in the demo contain some built-in data for demonstration purposes. **This data is not real and is only used for display.** 
