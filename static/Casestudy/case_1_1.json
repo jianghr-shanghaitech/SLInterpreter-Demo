@@ -4932,10 +4932,10 @@
             "paths": [
                 {
                     "tail": "CDK1",
-                    "relation": "SL_GsG",
-                    "head": "ZNF574",
+                    "relation": "idd",
+                    "head": "CDK1",
                     "layer": 0,
-                    "weight": 0.9174348,
+                    "weight": 0.75266737,
                     "type": 0,
                     "tail_category": "Gene",
                     "head_category": "Gene"
@@ -4946,16 +4946,6 @@
                     "head": "RPL13",
                     "layer": 0,
                     "weight": 0.9017633,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
-                },
-                {
-                    "tail": "CDK1",
-                    "relation": "SL_GsG",
-                    "head": "MYC",
-                    "layer": 0,
-                    "weight": 1.0,
                     "type": 0,
                     "tail_category": "Gene",
                     "head_category": "Gene"
@@ -5002,53 +4992,23 @@
                 },
                 {
                     "tail": "CDK1",
-                    "relation": "SL_GsG",
-                    "head": "FARSA",
+                    "relation": "involved_in",
+                    "head": "rhythmic_process",
                     "layer": 0,
-                    "weight": 0.78266215,
+                    "weight": 0.9017633,
                     "type": 0,
                     "tail_category": "Gene",
-                    "head_category": "Gene"
+                    "head_category": "BP"
                 },
                 {
                     "tail": "CDK1",
-                    "relation": "SL_GsG",
-                    "head": "MED28",
+                    "relation": "involved_in",
+                    "head": "cell_cycle",
                     "layer": 0,
-                    "weight": 0.8742804,
+                    "weight": 0.76257381,
                     "type": 0,
                     "tail_category": "Gene",
-                    "head_category": "Gene"
-                },
-                {
-                    "tail": "CDK1",
-                    "relation": "SL_GsG",
-                    "head": "NFE2L1",
-                    "layer": 0,
-                    "weight": 0.9816546,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
-                },
-                {
-                    "tail": "CDK1",
-                    "relation": "SL_GsG",
-                    "head": "SNRPA1",
-                    "layer": 0,
-                    "weight": 0.8502213,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
-                },
-                {
-                    "tail": "CDK1",
-                    "relation": "SL_GsG",
-                    "head": "MAD2L1",
-                    "layer": 0,
-                    "weight": 0.97345614,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
+                    "head_category": "BP"
                 },
                 {
                     "tail": "EXOSC9",
@@ -5066,6 +5026,46 @@
                     "head": "CAPZB",
                     "layer": 1,
                     "weight": 0.95720875,
+                    "type": 0,
+                    "tail_category": "Gene",
+                    "head_category": "Gene"
+                },
+                {
+                    "tail": "FH",
+                    "relation": "SL_GsG",
+                    "head": "MASTL",
+                    "layer": 1,
+                    "weight": 0.87220875,
+                    "type": 0,
+                    "tail_category": "Gene",
+                    "head_category": "Gene"
+                },
+                {
+                    "tail": "FH",
+                    "relation": "SL_GsG",
+                    "head": "MFAP1",
+                    "layer": 1,
+                    "weight": 0.89578375,
+                    "type": 0,
+                    "tail_category": "Gene",
+                    "head_category": "Gene"
+                },
+                {
+                    "tail": "KRAS",
+                    "relation": "SL_GsG",
+                    "head": "TRMT5",
+                    "layer": 1,
+                    "weight": 0.92838301,
+                    "type": 0,
+                    "tail_category": "Gene",
+                    "head_category": "Gene"
+                },
+                {
+                    "tail": "FH",
+                    "relation": "SL_GsG",
+                    "head": "PWP1",
+                    "layer": 1,
+                    "weight": 0.75937640,
                     "type": 0,
                     "tail_category": "Gene",
                     "head_category": "Gene"
@@ -5101,37 +5101,7 @@
                     "head_category": "Gene"
                 },
                 {
-                    "tail": "CDK1",
-                    "relation": "SL_GsG",
-                    "head": "RPL13",
-                    "layer": 2,
-                    "weight": 1.0,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
-                },
-                {
-                    "tail": "TRMT5",
-                    "relation": "SL_GsG",
-                    "head": "RPL13",
-                    "layer": 2,
-                    "weight": 1.0,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
-                },
-                {
                     "tail": "GTPBP4",
-                    "relation": "SL_GsG",
-                    "head": "RPL13",
-                    "layer": 2,
-                    "weight": 1.0,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
-                },
-                {
-                    "tail": "ATP1A1",
                     "relation": "SL_GsG",
                     "head": "RPL13",
                     "layer": 2,
@@ -5181,6 +5151,16 @@
                     "head_category": "Gene"
                 },
                 {
+                    "tail": "TRMT5",
+                    "relation": "SL_GsG",
+                    "head": "RPL13",
+                    "layer": 2,
+                    "weight": 1.0,
+                    "type": 0,
+                    "tail_category": "Gene",
+                    "head_category": "Gene"
+                },
+                {
                     "tail": "CAPZB",
                     "relation": "SL_GsG",
                     "head": "RPL13",
@@ -5201,31 +5181,11 @@
                     "head_category": "Gene"
                 },
                 {
-                    "tail": "PTTG1",
-                    "relation": "SL_GsG",
-                    "head": "RPL13",
-                    "layer": 2,
-                    "weight": 1.0,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
-                },
-                {
                     "tail": "SPAG7",
                     "relation": "SL_GsG",
                     "head": "RPL13",
                     "layer": 2,
                     "weight": 1.0,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
-                },
-                {
-                    "tail": "HRAS",
-                    "relation": "SL_GsG",
-                    "head": "RPL13",
-                    "layer": 2,
-                    "weight": 0.9834807,
                     "type": 0,
                     "tail_category": "Gene",
                     "head_category": "Gene"
@@ -5259,16 +5219,6 @@
                     "type": 0,
                     "tail_category": "BP",
                     "head_category": "Gene"
-                },
-                {
-                    "tail": "CDK1",
-                    "relation": "involved_in",
-                    "head": "rhythmic_process",
-                    "layer": 0,
-                    "weight": 0.9017633,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "BP"
                 },
                 {
                     "tail": "rhythmic_process",
@@ -5381,14 +5331,64 @@
                     "head_category": "Gene"
                 },
                 {
+                    "tail": "rhythmic_process",
+                    "relation": "is_a",
+                    "head": "response_to_reactive_oxygen_species",
+                    "layer": 1,
+                    "weight": 0.9017633,
+                    "type": 0,
+                    "tail_category": "BP",
+                    "head_category": "BP"
+                },
+                {
+                    "tail": "response_to_reactive_oxygen_species",
+                    "relation": "involved_in_inv",
+                    "head": "RPL13",
+                    "layer": 2,
+                    "weight": 0.9017633,
+                    "type": 0,
+                    "tail_category": "BP",
+                    "head_category": "Gene"
+                },
+                {
                     "tail": "CDK1",
                     "relation": "involved_in",
-                    "head": "response_to_hydrogen_peroxide",
+                    "head": "DNA_repair",
                     "layer": 0,
                     "weight": 0.9017633,
                     "type": 0,
                     "tail_category": "Gene",
                     "head_category": "BP"
+                },
+                {
+                    "tail": "cell_cycle",
+                    "relation": "involved_in",
+                    "head": "BUB3",
+                    "layer": 1,
+                    "weight": 0.97182633,
+                    "type": 0,
+                    "tail_category": "BP",
+                    "head_category": "Gene"
+                },
+                {
+                    "tail": "DNA_repair",
+                    "relation": "is_a",
+                    "head": "DNA_metabolic_process",
+                    "layer": 1,
+                    "weight": 0.9017633,
+                    "type": 0,
+                    "tail_category": "BP",
+                    "head_category": "BP"
+                },
+                {
+                    "tail": "DNA_metabolic_process",
+                    "relation": "involved_in_inv",
+                    "head": "RPL13",
+                    "layer": 2,
+                    "weight": 0.9017633,
+                    "type": 0,
+                    "tail_category": "BP",
+                    "head_category": "Gene"
                 },
                 {
                     "tail": "rhythmic_process",
@@ -5439,76 +5439,6 @@
                     "type": 0,
                     "tail_category": "BP",
                     "head_category": "Gene"
-                },
-                {
-                    "tail": "CDK1",
-                    "relation": "involved_in",
-                    "head": "response_to_hydrogen_peroxide",
-                    "layer": 0,
-                    "weight": 0.9017633,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "BP"
-                },
-                {
-                    "tail": "rhythmic_process",
-                    "relation": "is_a",
-                    "head": "response_to_reactive_oxygen_species",
-                    "layer": 1,
-                    "weight": 0.9017633,
-                    "type": 0,
-                    "tail_category": "BP",
-                    "head_category": "BP"
-                },
-                {
-                    "tail": "response_to_reactive_oxygen_species",
-                    "relation": "involved_in_inv",
-                    "head": "RPL13",
-                    "layer": 2,
-                    "weight": 0.9017633,
-                    "type": 0,
-                    "tail_category": "BP",
-                    "head_category": "Gene"
-                },
-                {
-                    "tail": "CDK1",
-                    "relation": "involved_in",
-                    "head": "DNA_repair",
-                    "layer": 0,
-                    "weight": 0.9017633,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "BP"
-                },
-                {
-                    "tail": "DNA_repair",
-                    "relation": "is_a",
-                    "head": "DNA_metabolic_process",
-                    "layer": 1,
-                    "weight": 0.9017633,
-                    "type": 0,
-                    "tail_category": "BP",
-                    "head_category": "BP"
-                },
-                {
-                    "tail": "DNA_metabolic_process",
-                    "relation": "involved_in_inv",
-                    "head": "RPL13",
-                    "layer": 2,
-                    "weight": 0.9017633,
-                    "type": 0,
-                    "tail_category": "BP",
-                    "head_category": "Gene"
-                },
-                {
-                    "tail": "CDK1",
-                    "relation": "involved_in",
-                    "head": "response_to_hydrogen_peroxide",
-                    "layer": 0,
-                    "weight": 0.9017633,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "BP"
                 },
                 {
                     "tail": "rhythmic_process",
@@ -5612,16 +5542,6 @@
                     "head": "MAD2L1",
                     "layer": 0,
                     "weight": 0.97345614,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
-                },
-                {
-                    "tail": "CDK1",
-                    "relation": "idd",
-                    "head": "CDK1",
-                    "layer": 0,
-                    "weight": 0.75266737,
                     "type": 0,
                     "tail_category": "Gene",
                     "head_category": "Gene"
@@ -5867,16 +5787,6 @@
                     "type": 0,
                     "tail_category": "Gene",
                     "head_category": "BP"
-                },
-                {
-                    "tail": "CDK1",
-                    "relation": "idd",
-                    "head": "CDK1",
-                    "layer": 0,
-                    "weight": 0.75266737,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
                 },
                 {
                     "tail": "DNA_repair",
@@ -6219,6 +6129,16 @@
                 {
                     "tail": "CDK1",
                     "relation": "SL_GsG",
+                    "head": "FARSA",
+                    "layer": 0,
+                    "weight": 0.97261133,
+                    "type": 0,
+                    "tail_category": "Gene",
+                    "head_category": "Gene"
+                },
+                {
+                    "tail": "CDK1",
+                    "relation": "SL_GsG",
                     "head": "FH",
                     "layer": 0,
                     "weight": 0.9165993,
@@ -6365,6 +6285,16 @@
                     "type": 0,
                     "tail_category": "Gene",
                     "head_category": "Gene"
+                },
+                {
+                    "tail": "FARSA",
+                    "relation": "involved_in",
+                    "head": "sensory_perception_of_smell",
+                    "layer": 1,
+                    "weight": 1.0,
+                    "type": 0,
+                    "tail_category": "Gene",
+                    "head_category": "BP"
                 },
                 {
                     "tail": "FH",
@@ -7716,16 +7646,6 @@
                 },
                 {
                     "tail": "CDK1",
-                    "relation": "idd",
-                    "head": "CDK1",
-                    "layer": 0,
-                    "weight": 0.75266737,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
-                },
-                {
-                    "tail": "CDK1",
                     "relation": "colocalizes_with",
                     "head": "mitochondrial_matrix",
                     "layer": 1,
@@ -8198,16 +8118,6 @@
                     "head": "MAD2L1",
                     "layer": 0,
                     "weight": 0.9770086,
-                    "type": 0,
-                    "tail_category": "Gene",
-                    "head_category": "Gene"
-                },
-                {
-                    "tail": "CDK1",
-                    "relation": "idd",
-                    "head": "CDK1",
-                    "layer": 0,
-                    "weight": 0.75541407,
                     "type": 0,
                     "tail_category": "Gene",
                     "head_category": "Gene"
